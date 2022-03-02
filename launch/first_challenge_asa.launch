@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="first_challege_asa" name="first_challege_asa" type="first_challege_asa" output="screen"/>
+    <node pkg="roomba_500driver_meiji" name="roomba_500driver_meiji" type="main500" />
+    <node pkg="urg_node" name="urg_node" type="urg_node" args="_ip_address:=192.168.0.000"/>
+</launch>
+
